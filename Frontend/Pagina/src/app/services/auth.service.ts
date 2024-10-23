@@ -1,3 +1,4 @@
+
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -14,5 +15,5 @@ export class AuthService {
     return this.http.post(this.apiUrl, { username, password });
   }
 
-  // Agregar otros métodos como logout, refresh token, etc.
+  // Agregar otros métodos como logout, refresh token, etc.
 }
